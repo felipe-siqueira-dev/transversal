@@ -1,0 +1,75 @@
+body{
+    width:100%;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(https://odatacolocation.com/wp-content/uploads/2022/06/ODATA-Gartner-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+header{
+    width:100%;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.1em;
+}
+
+header > p{
+    color: rgba(123,159,180,0.8);
+    font-weight: bold;
+    padding:10px 20px;
+    
+}
+
+main{
+    width:100vw;
+    height: 75vh;
+    display: flex;
+}
+
+.emBranco{
+    width:100%;
+}
+
+nav{
+    width:100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+nav > ul{
+    display: flex;
+}
+
+.escolha > a{
+    width:200px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(123,159,180,1.0);
+    color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    text-align: center;
+} 
+
+.escolha > a:hover{
+    color: rgba(123,159,180,0.8);
+    background-color: rgba(0,0,0,0.8);
+}
+
+footer{
+    padding: 10px 0px;
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(123,159,180,0.8);
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width:480px){
+    
+}
